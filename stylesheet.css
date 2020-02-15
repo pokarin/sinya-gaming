@@ -1,0 +1,94 @@
+.An-Sohee h1{
+  color: blue;
+  text-align: center;
+}
+.noseson h1{
+  color: crimson;
+  text-align: center;
+}
+.domin {
+  color: limegreen;
+}
+.タイトル {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+div{
+  text-align: center;
+}
+p {
+  color: lightslategray;
+  text-align: center;
+}
+body{
+  background-color: black;
+}
+img {
+  border-radius: 20px;
+}
+li {
+  text-align: center;
+}
+.ゲーム {
+  color: lightslategrey;
+  text-align: left;
+}
+.１位{
+  color: gold;
+  text-align: left;
+  font-size: 24px;
+}
+.２位{
+  color: yellow;
+  text-align: left;
+  font-size: 24px;
+}
+.３位{
+  color: brown;
+  text-align: left;
+  font-size: 24px;
+}
+li {
+ line-height: 400%;  
+}
+h2{
+  font-size: 16px;
+}
+.メンバー紹介！{
+  color: white;
+  text-align: center;
+}
+.menu-,.menu-list{
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.menu-case {
+  float: left;
+  color: white;
+}
+.menu-::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.menu-list {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  width: 10em;
+}
+.menu-name:hover + .menu-list, .menu-list:hover {
+  opacity: 1;
+  z-index: 1;
+}
+.menu-case:hover .menu-name {
+  color:#507ea4;
+}
+.menu-one {
+  color: white;
+}
+.menu-name {
+  color: white;
+}
